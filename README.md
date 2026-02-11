@@ -1,5 +1,8 @@
 🧠 MI-CSP-LDA-EEG-Control
-<p align="center"> <img src="https://raw.githubusercontent.com/yourID/MI-CSP-LDA-EEG-Control/main/assets/banner.png" width="800"/> </p> <p align="center"> Motor Imagery 기반 EEG 신호를 이용한 6-Class BCI 제어 시스템 (CSP + LDA Classification Pipeline) </p>
+
+Motor Imagery 기반 EEG 신호를 이용한
+6-Class BCI 제어 시스템 (CSP + LDA Pipeline)
+
 🚀 Project Overview
 
 본 프로젝트는 Motor Imagery (MI) EEG 신호를 이용하여
@@ -57,9 +60,10 @@ LDA Classifier
 Confusion Matrix
 
 📊 Result Example
-<p align="center"> <img src="result/confusion_matrix.png" width="500"/> </p>
 
-✔ Confusion matrix는 자동으로 result/ 폴더에 저장됩니다.
+Confusion matrix는 자동으로 result/ 폴더에 저장됩니다:
+
+result/confusion_matrix.png
 
 📁 Project Structure
 MI-CSP-LDA-EEG-Control/
@@ -75,11 +79,8 @@ MI-CSP-LDA-EEG-Control/
 │   ├── zoomIn/
 │   └── zoomOut/
 │
-├── result/
-│   └── confusion_matrix.png
-│
-└── assets/
-    └── banner.png
+└── result/
+    └── confusion_matrix.png
 
 ▶️ How to Run
 1️⃣ Generate Fake MI Data (optional)
@@ -89,7 +90,7 @@ python generate_fake_mi_epochs.py
 python train_csp_lda_mi.py
 
 
-결과:
+실행 결과:
 
 Accuracy 출력
 
@@ -138,4 +139,4 @@ matplotlib
 👨‍🔬 Author
 
 Kanye Kim
-BCI / EEG Signal Processing / Wireless Communication# EEG-MI-CSP-LDA
+BCI / EEG Signal Processing / Wireless Communication
